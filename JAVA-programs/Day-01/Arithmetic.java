@@ -1,4 +1,4 @@
-//Qs->Take input of 2 numbers
+//Question->Take input of 2 numbers
 //then add,subtract and multiply them
 
 
