@@ -5,7 +5,9 @@ Write another method to return volume
  */
 
  /*Output:->
-  * 
+   
+The volume of cuboid is:2340.000000
+The volume of cuboid is:2470.000000
   */
 
 import java.util.Scanner;
