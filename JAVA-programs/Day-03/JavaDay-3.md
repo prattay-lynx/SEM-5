@@ -1,5 +1,5 @@
 
-# Day-1 Lab OOPS
+# Day-3 Lab OOPS
 
 ## Programs are listed below:
 - Calculate java file to implement Parameterized Constructor and default constructor by calculating volume
