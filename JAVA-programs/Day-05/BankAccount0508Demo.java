@@ -1,6 +1,6 @@
 /*Question:->
  * To Create a class Account with data member account_no and account_balance and methods to deposit and 
- * withdraw money and display balance. Derive 2 subclass savingaccount and cuttingaccount 
+ * withdraw money and display balance. Derive 2 subclass savingaccount and current account 
  * Savings account should have minimum account balance of 1000 and 
  * current account should have overdraft facility.In Addition 
  * to this savings account should have a datamember interest and method to calculate interest and 
@@ -9,7 +9,45 @@
 */
 
 /*Output:->
- * 
+ * Enter Account Number : 5500
+
+
+----- Welcome to STCET BANK -----
+
+
+1. Savings Account
+2. Current Account
+3. Exit
+Enter Your Choice :
+1
+
+
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Exit
+Enter Your Choice :
+2
+Enter amount to deposit: 300
+Updated Account Balance : 1300.0
+
+
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Exit
+Enter Your Choice : 
+3
+Enter amount to withdraw: 200
+Updated Account Balance : 1100.0
+
+
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Exit
+Enter Your Choice :
+4
  */
 
 import java.util.Scanner;

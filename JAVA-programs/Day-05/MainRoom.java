@@ -1,11 +1,11 @@
 /*Question:->
  * To Create a class called Room with data members(length,breadth,height) and method calc_Area()
    to calculate the area and display it. Derive two subclasses from this class namely Bedroom and 
-   DrawingRoom Where Bedroom will have attached bathroom(BR),study table,night lamp
+   DrawingRoom Where Bedroom will have attached bathroom(BR),study table(ST),night lamp(NL)
    and a display method to display all its features.
 
-   Drawing will have so far have a wall cabinet and a display() method to display the 
-   features.Also display the areas of bedroom and drawing room
+   Drawing Room will have so far have a wall cabinet and a display() method to display the 
+   features.Also display the areas of bedroom and drawing room.
 */
 
 /*Output:-> 
