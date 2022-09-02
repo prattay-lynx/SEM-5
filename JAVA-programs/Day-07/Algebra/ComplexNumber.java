@@ -14,7 +14,7 @@ public class ComplexNumber implements Complex
     private int real;
     private int im;
 
-    public void setValue(int real,int im)
+    public ComplexNumber(int real,int im)
     {
         this.real = real;
         this.im = im;
@@ -22,7 +22,7 @@ public class ComplexNumber implements Complex
 
     public String toString(int realsum,int imsum)
     {
-        return  "(" + realsum +  ")" + " +i" + "(" + imsum + ")";
+        return  "(" + realsum +  ")" + "+i" + "(" + imsum + ")";
     }
 
     public void add(ComplexNumber ob1,ComplexNumber ob2)
