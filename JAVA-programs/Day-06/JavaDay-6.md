@@ -1,4 +1,4 @@
-# Day-7 Lab OOPS
+# Day-6 Lab OOPS
 
 ## Programs are listed below:
 - Question 1:-> To create a base class and then derive 
