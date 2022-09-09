@@ -1,0 +1,19 @@
+Assignment-8 for OOP Lab
+
+1. Write a program in Java to create two classes those implement an interface. The classes should provide different 
+implementations of a method which was declared by the interface. Create two instances of the two different classes 
+and a reference variable of the interface to call the method with different implementations. Also show that the 
+reference variable does not have access to those methods that are defined by the class and not there in the interface
+declaration.
+
+2. Write a program in Java to create a class that contains a nested interface. Create another class that implements
+that nested interface and thereby defines the method which contains only the declaration within the interface. In the 
+main method create an interface reference variable to call that method accordingly.
+
+3. Write a Java program to create a fixed sized stack using an interface and define the operations of the stack with 
+the help of that interface.
+
+4. Write a program in Java to create an interface. Create another interface that inherits the first interface. Create 
+a class that implements this second interface. Show that this class must define all those methods that are declared
+in those two interfaces otherwise a compilation error would occur. In the main method, execute calls to each & every 
+method declared in the interfaces.
