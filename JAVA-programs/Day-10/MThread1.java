@@ -1,18 +1,22 @@
 /*
- * output:->
- * PS C:\Users\tapas\Music\Semester-5\SEM-5\JAVA-programs\Day-10> java MyThread
-main
-The child thread : Thread[MyThread,5,main]
-main
-The main thread : Thread[MainThread,5,main]
-The child thread: 5
+ *Output:->
+The child thread : Thread[One,5,main]
+The child thread : Thread[Two,5,main]
+The main thread : Thread[main,5,main]
+Two:5
+One:5
 The main thread 5
-The child thread: 4
+Two:4
+One:4
 The main thread 4
-The child thread: 3
-The child thread: 2
+Two:3
+One:3
+Two:2
+One:2
 The main thread 3
-The child thread: 1
+Two:1
+One:1
+The child thread terminates!!
 The child thread terminates!!
 The main thread 2
 The main thread 1
@@ -20,11 +24,13 @@ The main thread terminates!!!
  */
 public class MThread1 implements Runnable
 {
-   public MThread1()
+   String name;
+   Thread t;
+   public MThread1(String threadname)
    {
-     Thread th = new Thread(this,"MyThread");
-     System.out.println(Thread.currentThread().getName());
-     System.out.println("The child thread : "+th);
+     name = threadname;
+     t = new Thread(this,name);
+     System.out.println("The child thread : "+t);
    }
    public void run()
    {
@@ -32,7 +38,7 @@ public class MThread1 implements Runnable
      { 
        for(int i = 5; i > 0; i--)
        {
-          System.out.println("The child thread: "+i);
+          System.out.println(name+":"+i);
           Thread.sleep(500);
        }   
      }
@@ -51,14 +57,17 @@ class MyThread
 {
       public static void main(String[] args) 
       {
-         MThread1 t = new MThread1();
-         Thread th = new  Thread(t);
-         th.start();
+         MThread1 t1 = new MThread1("One");
+         MThread1 t2 = new MThread1("Two");
+         
+         t1.t.start();
+         t2.t.start();
+
+         Thread t3=Thread.currentThread();
+
          try
          {
-            th.setName("MainThread");
-            System.out.println(Thread.currentThread().getName());
-            System.out.println("The main thread : "+th);
+            System.out.println("The main thread : "+ t3);
             for(int i = 5; i > 0; i--)
             {
                 System.out.println("The main thread "+i);
