@@ -9,3 +9,7 @@
 - WAP in java to create to multiple child threads and assign different priority values to them show that 
 the higher priority thread occupy the CPU more than lower priority threads.
 
+- WAP in java to create multiple threads and implement synchronization between them using a synchronized block.
+
+- WAP in java to Create multiple threads and implement synchronization between them using calls to synchronize method.
+
