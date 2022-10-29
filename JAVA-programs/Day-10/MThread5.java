@@ -1,4 +1,7 @@
-
+//Output:->
+/*[Hello]
+[Block]
+[Synchronized] */
 class Caller {
     void call(String msg) {
         System.out.print("[" + msg);
